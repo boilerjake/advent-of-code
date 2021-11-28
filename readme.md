@@ -1,1 +1,3 @@
-# Day {{project-name}}
+# Day {{day}}
+
+https://adventofcode.com/{{year}}/day/{{day}}
