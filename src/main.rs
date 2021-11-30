@@ -5,7 +5,13 @@ const ADD_SAMPLE: &str = include_str!("../additional_sample.txt");
 const INPUT: &str = include_str!("../input.txt");
 
 fn part_one(input: &str) -> usize {
-    unimplemented!("{}", input)
+    input
+        .split('\n')
+        .filter_map(|s| match s.trim() {
+            "" => None,
+            _ => Some(s.trim()),
+        })
+        .count() // TODO
 }
 
 fn part_two(input: &str) -> usize {
