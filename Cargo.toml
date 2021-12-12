@@ -11,3 +11,7 @@ cached = "0.26.2"
 
 [lib]
 doctest = false
+
+[[bin]]
+name = "{{project-name}}"
+test = false
