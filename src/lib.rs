@@ -11,7 +11,7 @@ pub fn part_two(input: &'static str) -> usize {
 }
 
 #[cached]
-pub fn parse_input(input: &'static str) -> Vec<&'static str> {
+fn parse_input(input: &'static str) -> Vec<&'static str> {
     input
         .lines()
         .filter_map(|s| match s.trim() {
