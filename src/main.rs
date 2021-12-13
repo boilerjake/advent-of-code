@@ -1,4 +1,6 @@
-use {{crate_name}}::{part_one, part_two};
+use lib::{part_one, part_two};
+
+mod lib;
 
 const INPUT: &str = include_str!("../input.txt");
 
