@@ -20,7 +20,7 @@ fn parse_input(input: &'static str) -> Vec<&'static str> {
 
 #[cfg(test)]
 mod tests {
-    use crate::{part_one, part_two};
+    use super::{part_one, part_two};
 
     const SAMPLE: &str = include_str!("../sample.txt");
 
